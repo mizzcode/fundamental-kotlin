@@ -39,4 +39,14 @@ fun main() {
         2 -> print("x == 2")
         else -> print("x is neither 1 nor 2")
     }
+
+    println()
+
+    print("Enter a random number sir: ")
+    val y = Integer.valueOf(readlnOrNull())
+
+    when (y) {
+        0,1 -> print("y == 0 or y == 1")
+        else -> print("nono")
+    }
 }
