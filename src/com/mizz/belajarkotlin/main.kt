@@ -41,4 +41,14 @@ fun main() {
     val nameCustomer = "Mizz"
 
     println("Pembeli $nameCustomer membeli popcorn sebanyak $popcorn total harga = $pricePopcorn dan hotdog sebanyak $hotdog total harga = $priceHotdog")
+
+    val str: String = "mizz"
+
+    for (c in str) {
+        println(c)
+    }
+
+//    concatenate string
+    val cs = "lostsaga" + 2015
+    println(cs + " jaman warnet")
 }
