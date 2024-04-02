@@ -90,4 +90,12 @@ fun main() {
      */
     println("array to map")
     println(pairArray.toMap())
+
+    /**
+     * Nested Arrays
+     * arrays can be nested within each other to created multidimensional arrays
+     */
+//    array 2 dimensi
+    val twoDimensiArray = Array(2) {Array<Int>(3) {1} }
+    println(twoDimensiArray.contentDeepToString())
 }
